@@ -20,7 +20,7 @@ Biomarkers for early detection of SD based on molecular features of the patients
 
 DEG analysis extracted from blood or peripheral blood mononuclear cells (PBMCs).
 ![](./images/biomarker.png "Dengue Virus")
-
+<div class="images", style=-"backgrounds-color": "white">
 ![](https://github.com/Takshan/Single_cell/blob/main/figures/scatterfig.png)
 The data consists of **4** individuals with **Dengue Positive** and **4 Dengue Negative** or Control and therefore has 8 datsets in total.<br> Initial QC of data if of very important as it can help in identifying noises and remove these artifacts that may have adverse effect of the further downstream analysis.
 ![](https://github.com/Takshan/Single_cell/blob/main/figures/rank_genes_groups_leiden_0_detail_single_cluster_info.png)

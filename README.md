@@ -21,6 +21,7 @@ Biomarkers for early detection of SD based on molecular features of the patients
 DEG analysis extracted from blood or peripheral blood mononuclear cells (PBMCs).
 ![](./images/biomarker.png "Dengue Virus")
 <div class="images", style=-"backgrounds-color": "white">
+
 ![](https://github.com/Takshan/Single_cell/blob/main/figures/scatterfig.png)
 
 </div>

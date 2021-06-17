@@ -18,7 +18,7 @@ Biomarkers for early detection of SD based on molecular features of the patients
 
 DEG analysis extracted from blood or peripheral blood mononuclear cells (PBMCs).
 ![](./images/biomarker.png "Dengue Virus")
-<div class="images", style=-"backgrounds-color": "white">
+<div class="images", style="backgrounds-color": "white">
 
 ![](https://github.com/Takshan/Single_cell/blob/main/figures/scatterfig.png)
 
@@ -30,8 +30,7 @@ The datasets was Standardize  for each same and merged for  the analysis by usin
 
 Anotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
 <div class="images">
-![](./figures/umap_leiden.png)
-
+![](https://github.com/Takshan/Single_cell/blob/main/figures/umap_leiden.png)
 </div>
 For More Visit [Wiki](https://github.com/Takshan/Single_cell/wiki)
 

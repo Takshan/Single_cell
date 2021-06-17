@@ -10,9 +10,7 @@ Dengue is caused by one of any of four related viruses: Dengue virus 1, 2, 3, an
 
 ![](./images/denv.png "Dengue Virus")
 
-Dengue virus infection presents a wide spectrum of manifestations including asymptomatic condition, dengue fever (DF), or severe forms, such as dengue hemorrhagic fever (DHF) and dengue shock syndrome (DSS) in affected individual
-Biomarkers provide a dynamic and powerful approach to understanding the spectrum of disease with applications in observational and analytic epidemiology, randomized clinical trials, screening and diagnosis and prognosis.<br>
-The early prediction of severe dengue in patients without any warning signs who may later develop severe DHF is very important to choose appropriate intensive supportive therapy since available vaccines for immunization are yet to be approved. Severe dengue responses include T and B cell activation and apoptosis, cytokine storm, hematologic disorders and complement activation. Cytokines, complement and other unidentified factors may transiently act on the endothelium and alter normal fluid barrier function of the endothelial cells and cause plasma leakage. The host factors such as activated immune and endothelial cells and their products which can be utilized as biomarkers for severe dengue disease[1](https://dx.doi.org/10.1186%2Fs12929-015-0191-6).
+Dengue virus infection has many manifestations, including asymptomatic symptoms, dengue fever (DF) or more severe forms such as dengue hemorrhagic fever (DHF) and dengue shock syndrome (DSS) in affected individuals. Biomarkers provide a dynamic and effective method for understanding diseases and can be used in observational and analytical epidemiology, randomized clinical trials, screening, diagnosis, and prognosis. When choosing the appropriate  treatment, because the vaccine has not been approved for immunization, the early prognosis is very important for patients who have no warning signs but may develop severe dengue hemorrhagic fever later. Severe reactions of dengue fever include T and B storm cell activation and cytokine apoptosis, hematological abnormalities, and complement activation. Unknown factors such as cytokines and complement can temporarily affect the endothelium and change the barrier function of body fluids causing normal endothelial cells and plasma leakage.The host factors such as complemently activated immune and endothelial cells and their products due to dengue disease can be used as biomarkers for severe dengue fever.[1](https://dx.doi.org/10.1186%2Fs12929-015-0191-6).
 
 
 
@@ -23,13 +21,20 @@ Biomarkers for early detection of SD based on molecular features of the patients
 DEG analysis extracted from blood or peripheral blood mononuclear cells (PBMCs).
 ![](./images/biomarker.png "Dengue Virus")
 
+![](https://github.com/Takshan/Single_cell/blob/main/figures/scatterfig.png)
+The data consists of **4** individuals with **Dengue Positive** and **4 Dengue Negative** or Control and therefore has 8 datsets in total.<br> Initial QC of data if of very important as it can help in identifying noises and remove these artifacts that may have adverse effect of the further downstream analysis.
+![](https://github.com/Takshan/Single_cell/blob/main/figures/rank_genes_groups_leiden_0_detail_single_cluster_info.png)
 
-The data consists of **4** individuals with **Dengue Positive** and **4 Dengue Negative** or Control and therefore has 8 datsets in total.<br>
-
-The datasets was Standardize  for each same and merged for  the analysis by using scanpy package.<br>
+The datasets was Standardize  for each same and merged for  the analysis by using **scanpy** package.<br>
 
 Anotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
 ![](./figures/umap_leiden.png)
 
 
 For More Visit [Wiki](https://github.com/Takshan/Single_cell/wiki)
+
+
+Higly variable genes were identified among the samples for further analysis.
+![](https://github.com/Takshan/Single_cell/blob/main/figures/filter_genes_dispersion_highly_variable_genes.png)
+
+

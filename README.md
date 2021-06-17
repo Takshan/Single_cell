@@ -29,19 +29,14 @@ The data consists of **4** individuals with **Dengue Positive** and **4 Dengue N
 The datasets was Standardize  for each same and merged for  the analysis by using **scanpy** package.<br>
 
 Anotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
-<div class="images">
+<div class="images", style="backgrounds-color": "white">
 ![](https://github.com/Takshan/Single_cell/blob/main/figures/umap_leiden.png)
 </div>
 For More Visit [Wiki](https://github.com/Takshan/Single_cell/wiki)
 
 Higly variable genes were identified among the samples for further analysis.
-<div class="images">
+<div class="images", style="backgrounds-color": "white">
 ![](https://github.com/Takshan/Single_cell/blob/main/figures/filter_genes_dispersion_highly_variable_genes.png)
 
 </div>
 
-<style>
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
-.images { background-color: white}
-</style>

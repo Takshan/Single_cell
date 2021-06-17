@@ -1,10 +1,6 @@
 # Single_cell analysis report for 2021 class
-## 
 
-
-
-## About Dengue: What You Need to Know.
-
+## About Dengue: What You Need to Know
 Dengue viruses are spread to people through the bite of an infected Aedes species (Ae. aegypti or Ae. albopictus) mosquito. These mosquitoes also spread Zika, chikungunya, and other viruses.
 Dengue is common in more than 100 countries around the world.
 Forty percent of the world’s population, about 3 billion people, live in areas with a risk of dengue. Dengue is often a leading cause of illness in areas with risk.
@@ -19,3 +15,11 @@ Biomarkers for early detection of SD based on molecular features of the patients
 
 DEG analysis extracted from blood or peripheral blood mononuclear cells (PBMCs).
 ![](./images/biomarker.png "Dengue Virus")
+
+
+The data consists of 4 individuals with Dengue Positive and 4 Control and therefore has 8 datsets in total.<br>
+
+The datasets was Standardize  for each same and merged for  the analysis by using scanpy package.<br>
+
+Anotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
+![](./figures/umap_leiden.png)

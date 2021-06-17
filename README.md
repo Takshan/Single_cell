@@ -30,18 +30,18 @@ The datasets was Standardize  for each same and merged for  the analysis by usin
 
 Anotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
 
-![image alt <](https://github.com/Takshan/Single_cell/blob/main/figures/umap_leiden.png)
+![image alt <](./figures/umap_leiden.png)
 
 For More Visit [Wiki](https://github.com/Takshan/Single_cell/wiki)
 
 Higly variable genes were identified among the samples for further analysis.
 
-![image alt ><](https://github.com/Takshan/Single_cell/blob/main/figures/filter_genes_dispersion_highly_variable_genes.png)
+![image alt ><](./figures/filter_genes_dispersion_highly_variable_genes.png)
 
 <style type="text/css">
   body {
 
-    background-color: rgba(50, 115, 220, 0.1);
+    background-color: rgba(255,255,255, 1);
 
   }
   images{background-color: rgba(50, 115, 220, 0.3); 

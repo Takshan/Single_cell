@@ -51,9 +51,8 @@ Higly variable genes were identified among the samples for further analysis.
 
 </div>
 
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
+<style>
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 .images { background-color: white}
-</style>")
+</style>

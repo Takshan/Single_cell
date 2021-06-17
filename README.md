@@ -30,3 +30,6 @@ The datasets was Standardize  for each same and merged for  the analysis by usin
 
 Anotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
 ![](./figures/umap_leiden.png)
+
+
+For More Visit [Wiki](https://github.com/Takshan/Single_cell/wiki)

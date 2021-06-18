@@ -30,36 +30,47 @@ Analysis of blood or peripheral blood mononuclear cells (PBMCs).
 ![image alt](./images/biomarker.png "Dengue Virus")
 ======
 
-![image alt >](./figures/scatterfig.png)
+![image alt  <](./figures/scatterscatter.png "SAMPLE")
 
-## Results
+## Results and Discussion
 
-The data consists of **3** individuals with **Dengue Positive** and **3 Dengue Negative** or Control and therefore has 8 datsets in total.
+The data consists of **4** individuals with **Dengue Positive** and **4 Dengue Negative** or Control and therefore has 8 datsets in total.
 
-![image alt  <](./figures/pca_scatter_plot.png)
+| Serial | Control | DENV    |
+| ------ | ------- | ------- |
+| 1      | ctrl_2  | denv_8  |
+| 2      | ctrl_3  | denv_10 |
+| 3      | ctrl_4  | denv_15 |
+| 4      | ctrl_5  | denv_28 |
+
+---
 
 Initial QC of data if of very important as it can help in identifying noises and remove these artifacts that may have adverse effect of the further downstream analysis.
 
-![image alt >](./figures/rank_genes_groups_leiden_0_detail_single_cluster_info.png)
+
 
 The datasets was Standardize  for each same and merged for  the analysis by using **scanpy** package.
 
 Annotation of the genes and custering this highly dimensions data is required to identify groups of cells based on the similarities of the transcripts without any prior knowledge of the labels. Moreover, in most situations we do not even know the number of clusters a priori. The problem is made even more challenging due to the high level of noise (both technical and biological).
 
-![image alt <](./figures/umap_leiden.png)
 
 For More Visit  [**Takshan Wiki**](https://github.com/Takshan/Single_cell/wiki)
+Scanpy python package was used to identify highly variable genes after.![](figures/filter_genes_dispersion_highly_variable_genes.png "Highly Variable Genes")
 
 Higly variable genes were identified among the samples for further analysis.
-
-![image alt ><](./figures/filter_genes_dispersion_highly_variable_genes.png)
 
 Several biochemical compounds in the serum/plasma of patients with severe dengue fever have been shown to increase or decrease, and their quantification can be used as a biomarker of severe dengue fever. Plasma's total cholesterol, high-density lipoprotein (HDL) and low-density lipoprotein levels were also known to expressed during Dengue disease. Compared with patients with mild dengue haemorrhagic fever, children with the most severe disease have significantly lower.
 
 ### CLustering
 
-Clustering analysis showed  a  total of 20 distinguishable
-## Discussion
+Clustering analysis showed  a  total of 20 distinguishable feature set as shown if the figure below.
+
+![image alt <](./figures/umap_leiden.png)
+
+
+![image alt >](./figures/rank_genes_groups_leiden_0_detail_single_cluster_info.png)
+
+## Conclusion
 
 Dengue virus has been shown to infect a wide range of cells including dendritic cells (DCs), monocytes, lymphocytes, hepatocytes, endothelial cells (ECs) and mast cells in vitro<sup>[5](https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-015-0191-6#ref-CR6)</sup>. 
 

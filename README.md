@@ -30,7 +30,7 @@ Analysis of blood or peripheral blood mononuclear cells (PBMCs).
 
 ======
 
-![image alt  <](./figures/scatterscatter.png "SAMPLE")
+![image alt  ><](./figures/scatterscatter.png "SAMPLE")
 
 ## Results and Discussion
 
@@ -87,7 +87,7 @@ The expression of these high variable genese in each of the clusters significati
 
 ![image alt  ><](figures/heatmap_top_10_gene.png)
 
-Sample wise diiference in the expression of genese was also identified as shown in the figure.
+Sample wise difference in the expression of genese was also identified as shown in the figure.
 
 ![image alt  ><](figures/rank_genes_groups_type_DE_DENV.png)
 

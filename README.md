@@ -60,57 +60,52 @@ Scanpy python package was used to identify highly variable genes after.![](figur
 Higly variable genes were identified among the samples for further analysis.
 
 Several biochemical compounds in the serum/plasma of patients with severe dengue fever have been shown to increase or decrease, and their quantification can be used as a biomarker of severe dengue fever. Plasma's total cholesterol, high-density lipoprotein (HDL) and low-density lipoprotein levels were also known to expressed during Dengue disease. Compared with patients with mild dengue haemorrhagic fever, children with the most severe disease have significantly lower.
+![image alt ](figures/violin_final_violin.png)
 ### CLustering
 
 Clustering analysis showed  a  total of 20 distinguishable feature set as shown if the figure below with mean expression of some of the marker genes..
-![](figures/dotplot___louvan.png)
+![image alt ><](figures/dotplot___louvan.png)
 
 Dendogram of  the clusters also shows the re;lation between the clusters.
 It can be observer that cluster 0 and cluster 1 are closest indicating the genes of the cluster are expressed in it similar. This indicates this genese might me specific to either of the sample datasets.
 
-![](figures/_dengogram.png)
+![image alt  ><](figures/_dengogram.png)
 
 This was confirmed when checking for the sample type of these origin as shown in the figure below.
 
-![](figures/_output.png)
+![image alt  ><](figures/_output.png)
 
-Some of the highly varibale gene clusters showed a trend of containing a specific genes either from control or dengue infected sample types.
+Some of the highly variable gene clusters showed a trend of containing a specific genes either from control or dengue infected sample types.
 Plotting the top highly variable of genes in the cluster we can identify the rank of the genes expressed in that cluster.
 
-![](figures/rank_genes_groups_louvain_0.6_louvain_0.6_ov_test.png)
+![image alt  >< ](figures/rank_genes_groups_louvain_0.6_louvain_0.6_ov_test.png)
 
 The expression of these high variable genese in each of the clusters signification as shown by t-test or wixon test. which indicate these genes are related to the  mechanism of human immune respose during dengue disease. 
-![](figures/heatmap_top_10_gene.png)
+![image alt  ><](figures/heatmap_top_10_gene.png)
 
 
 Sample wise diiference in the expression of genese was also identified as shown in the figure.
-![](figures/rank_genes_groups_type_DE_DENV.png)
+![image alt  ><](figures/rank_genes_groups_type_DE_DENV.png)
 
 Visualizing these top genes highly expressed i.e in dengue infection sample against the control sample also indicates the indeed the specific in samples.
 
-![](figures/_sns_ogenes_across_all_clusters.png)
+![image alt  ><](figures/_sns_ogenes_across_all_clusters.png)
 **RPS3A** , highly variable in dengue sample is known to associated with disease like Spherocytosis, Type 4 and Spherocytosis, Type 1. Among its related pathways are Metabolism of proteins and HIV Life Cycle.Is also know to be target of dengue NS1 protein<sup>[6](https://www.sciencedirect.com/science/article/pii/S0042682215002731) </sup>and the up regulates at early as 6-hr post infection<sup>[7](https://www.scielo.br/j/bjmbr/a/wfXGMjptXPZkd8cKVM9DzYG/?lang=en)</sup>. It indicates that the DENV like any other virus is capable of  hijacking the host protein synthesis machinery to synthesis its own protein.The structure of DV-RNA is similar to a typical mRNA with a 5'layer structure, but the difference of DV-RNA is that it contains a 3'UTR, forming a stem structure similar to a poly(A) tail. This structure suggests that DV utilizes the cap-dependent translation machinery for protein synthesis. Also DENV can utilize an alternative mechanism independent of an internal ribosome entry site that might depend on the interaction between the 5' and 3'UTR for binding to the initiation factors.
 
 ### Gene Set Expression Analysis(GSEA)
 
+![image alt  >](figures/GO_BP.png)
+![image alt  ><](figures/KEGG_2021.png)
+Gene Set Expression Analysis analysis showed that most hte highly variable genes are associated with host immune response and involded in the cytokines-cytokines receptor pathway as per Kyoto encyclopedia of Genes and Genomes(KEGG) pathway(v2021).
+
+The source of cytokines, soluble receptors and ligands found increased in dengue patients could come from several cell types<sup>[5](https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-015-0191-6#ref-CR6)</sup>. Dengue hemorrhagic fever will experience a "cytokine storm" with increased levels of circulating cytokines and chemokines, so serum cytokine and chemokine levels can be used as laboratory tools for predicting serious diseases. T cells, NK cells, monocytes, macrophages, hepatocytes and EC have been known to increase the  production of cytokines and chemokines.
+![](figures/umap_.png)
+
+![](figures/cytokines.png "cytokines")
 
 # Conclusion
 
-Dengue virus has been shown to infect a wide range of cells including dendritic cells (DCs), monocytes, lymphocytes, hepatocytes, endothelial cells (ECs) and mast cells in vitro<sup>[5](https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-015-0191-6#ref-CR6)</sup>. 
-![image alt >](./figures/rank_genes_groups_leiden_0_detail_single_cluster_info.png "Top 5 Genes from DENV & CNTRL")
-
-
-
-
-
-
-
-
-
-
-
-
-
+Dengue virus has been shown to infect a wide range of cells including dendritic cells (DCs), monocytes, lymphocytes, hepatocytes, endothelial cells (ECs) and mast cells in vitro. In conclusion, the response of this study to dengue virus infection is characterized by the production of various cytokines, soluble ligands and receptors, and the overall situation is complex. In depth analysis of the  highly variables genes can be used for further identifying the suitable genes candidate for selection as biomarker.
 
 ---
 <style type="text/css">

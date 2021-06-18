@@ -83,7 +83,7 @@ Plotting the top highly variable of genes in the cluster we can identify the ran
 
 ![image alt  >< ](figures/rank_genes_groups_louvain_0.6_louvain_0.6_ov_test.png)
 
-The expression of these high variable genese in each of the clusters signification as shown by t-test or wixon test. which indicate these genes are related to the  mechanism of human immune respose during dengue disease. 
+The expression of these high variable genese in each of the clusters signification as shown by t-test or wixon test. which indicate these genes are related to the  mechanism of human immune respose during dengue disease.
 
 ![image alt  ><](figures/heatmap_top_10_gene.png)
 
@@ -106,9 +106,9 @@ Visualizing these top genes highly expressed i.e in dengue infection sample agai
 Gene Set Expression Analysis analysis showed that most hte highly variable genes are associated with host immune response and involded in the cytokines-cytokines receptor pathway as per Kyoto encyclopedia of Genes and Genomes(KEGG) pathway(v2021).
 
 The source of cytokines, soluble receptors and ligands found increased in dengue patients could come from several cell types<sup>[5](https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-015-0191-6#ref-CR6)</sup>. Dengue hemorrhagic fever will experience a "cytokine storm" with increased levels of circulating cytokines and chemokines, so serum cytokine and chemokine levels can be used as laboratory tools for predicting serious diseases. T cells, NK cells, monocytes, macrophages, hepatocytes and EC have been known to increase the  production of cytokines and chemokines.
-![](figures/umap_.png)
+![image >< ](figures/umap_.png)
 
-![](figures/cytokines.png "cytokines")
+![image >< ](figures/cytokines.png "cytokines")
 
 # Conclusion
 
@@ -118,18 +118,20 @@ Dengue virus has been shown to infect a wide range of cells including dendritic 
 <style type="text/css">
 
   img[alt$=">"] {
-  float: right; 
+  float: right;
 }
 
 img[alt$="<"] {
-  float: left; 
+  float: left;
 }
 
 img[alt$="><"] {
-  display: block; 
-  max-width: 100%; 
-  height: auto; 
-  margin: auto; 
-  float: none!important; 
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none!important;
 }
 </style>
+
+
